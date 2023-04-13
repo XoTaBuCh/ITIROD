@@ -1,0 +1,12 @@
+
+.board-img {
+    float: left;
+    width: 640px;
+    height: 640px;
+    border-radius: 10px;
+}
+.container {
+    float: left;
+    margin-top: 100px;
+    margin-left: 100px;
+}

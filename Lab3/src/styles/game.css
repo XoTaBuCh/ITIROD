@@ -1,0 +1,42 @@
+input {
+    height: 25px;
+    width: 250px;
+}
+
+.container {
+    float: left;
+    background-color: #835107;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.history-title {
+    background-color: #4E4E4E;
+}
+
+.history {
+    text-align: center;
+    font-size: 24px;
+    background-color: #E4C474;
+}
+
+.history-list {
+    font-size: 18px;
+    font-weight: 100;
+    list-style: none;
+    padding: 0;
+}
+
+.history-list li {
+    background-color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.board-img {
+    float: right;
+    margin-right: 100px;
+    width: 640px;
+    height: 640px;
+    border-radius: 10px;
+}
