@@ -85,3 +85,31 @@ input {
 input::placeholder {
     color: #4E4E4E;
 }
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-right: 5px;
+        margin-left: 5px;
+        float: left;
+    }
+
+    .logo-text {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 6px;
+        margin-bottom: 4px;
+    }
+
+    .logo-img {
+        width: 30px;
+        height: 20px;
+    }
+    header {
+        background-color: #323232;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        left: 0;
+        height: 30px;
+    }
+}
