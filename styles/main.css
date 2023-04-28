@@ -1,20 +1,42 @@
+.container {
+    margin-top: 40px;
+}
+
+.btns {
+    margin-top: 40px;
+}
+
+h1, h2 {
+    text-align: center;
+}
 
 .board-img {
-    float: left;
     width: 640px;
     height: 640px;
     border-radius: 10px;
 }
-.container {
-    float: left;
-    margin-top: 100px;
-    margin-left: 100px;
+
+.main-wrapper {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
-@media screen and (max-width: 600px) {
+@media (max-device-width: 600px) {
+
     .board-img {
-        float: left;
-        width: 300px;
-        height: 300px;
         border-radius: 10px;
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
     }
+    .main-wrapper{
+        margin-top: 50px;
+    }
+
+.container {
+    margin-top: 40px;
+}
+
 }

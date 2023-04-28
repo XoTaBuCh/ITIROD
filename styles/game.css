@@ -3,6 +3,11 @@ input {
     width: 250px;
 }
 
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .container {
     float: left;
     background-color: #835107;
@@ -36,7 +41,31 @@ input {
 .board-img {
     float: right;
     margin-right: 100px;
-    width: 640px;
-    height: 640px;
+    width: 600px;
+    height: 600px;
     border-radius: 10px;
+}
+
+.main-wrapper {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+@media screen and (max-device-width: 600px) {
+    input {
+        height: 35px;
+    }
+    .main-wrapper {
+        align-items: center;
+        margin-top: 50px;
+        flex-direction: column-reverse; 
+    }
+
+    .board-img {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+    }
 }
