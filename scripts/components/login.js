@@ -17,5 +17,5 @@ export const LogInHeader = () => {
 }
 export const LogInHead = () => {
     return `<title>Логин</title>
-    <link href="../../styles/login.css" rel="stylesheet"/>`
+    <link href="../styles/login.css" rel="stylesheet"/>`
 }

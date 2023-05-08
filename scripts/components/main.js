@@ -27,7 +27,7 @@ export const WelcomeHeader = () => {
 }
 export const WelcomeHead = () => {
     return `<title>Главная страница</title>
-    <link href="../../styles/main.css" rel="stylesheet"/>`
+    <link href="../styles/main.css" rel="stylesheet"/>`
 }
 
 

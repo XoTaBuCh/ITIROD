@@ -14,7 +14,7 @@ export const GameHeader = () => {
 }
 export const GameHead = () => {
     return `<title>Игра</title>
-    <link href="../../styles/game.css" rel="stylesheet"/>`
+    <link href="../styles/game.css" rel="stylesheet"/>`
 }
 
 

@@ -20,7 +20,7 @@ export const MenuHeader = () => {
 }
 export const MenuHead = () => {
     return `<title>Меню</title>
-    <link href="../../styles/menu.css" rel="stylesheet"/>`
+    <link href="../styles/menu.css" rel="stylesheet"/>`
 }
 
 
