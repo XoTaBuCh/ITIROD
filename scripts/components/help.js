@@ -22,7 +22,7 @@ export const HelpHeader = () => {
 }
 export const HelpHead = () => {
     return `<title>Помощь</title>
-    <link href="../styles/help.css" rel="stylesheet"/>`
+    <link href="./styles/help.css" rel="stylesheet"/>`
 }
 
 

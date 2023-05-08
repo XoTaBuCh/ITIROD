@@ -20,7 +20,7 @@ export const SignUpHeader = () => {
 }
 export const SignUpHead = () => {
     return `<title>Регистрация</title>
-    <link href="../styles/sing_up.css" rel="stylesheet"/>`
+    <link href="./styles/sing_up.css" rel="stylesheet"/>`
 }
 
 
