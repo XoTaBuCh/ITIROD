@@ -91,6 +91,18 @@ input {
 input::placeholder {
     color: #4E4E4E;
 }
+.red-li {
+    background: red;
+}
+
+.black-li {
+    background: black;
+}
+
+.white-li {
+    background: white;
+    color: black;
+}
 
 @media screen and (max-device-width: 600px) {
  

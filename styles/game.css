@@ -30,10 +30,11 @@ input {
     font-weight: 100;
     list-style: none;
     padding: 0;
+    max-height:500px;
+    overflow: auto;
 }
 
 .history-list li {
-    background-color: #000000;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -47,20 +48,20 @@ input {
 }
 
 .main-wrapper {
-    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
     display: flex;
     gap: 30px;
     align-items: flex-start;
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 1050px) {
     input {
         height: 35px;
     }
     .main-wrapper {
         align-items: center;
-        margin-top: 50px;
-        flex-direction: column-reverse; 
+        flex-direction: column-reverse;
     }
 
     .board-img {

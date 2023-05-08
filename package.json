@@ -1,0 +1,10 @@
+{
+  "name": "ITIROD",
+  "version": "1.0.0",
+  "dependencies": {
+    "@firebase/app": "^0.9.9",
+    "@firebase/auth": "^0.23.1",
+    "@firebase/database": "^0.14.4",
+    "firebase": "^9.21.0"
+  }
+}

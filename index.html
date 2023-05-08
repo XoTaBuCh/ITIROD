@@ -2,17 +2,14 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <title>Главная страница</title>
-    <link href="styles/styles.css" rel="stylesheet"/>
-    <link href="styles/main.css" rel="stylesheet"/>
+    <link href="./styles/styles.css" rel="stylesheet"/>
+    <script type="module" src="scripts/index.js"></script>
+    <span id="head"></span>
 </head>
 <body>
 <header>
     <nav>
-        <div>
-            <a class="orange-button" href="html/login.html">Логин</a>
-            <a class="orange-button" href="html/sign_up.html">Регистрация</a>
-
+        <div id="navbar">
         </div>
         <div class="logo">
             <img alt="logo" class="logo-img" src="resources/checkers.png">
@@ -20,26 +17,7 @@
         </div>
     </nav>
 </header>
-<main>
-    <div class="main-wrapper">
-    <img class="board-img" src="resources/board.jpg" alt="board">
-    
-    <div class="container">
-        <div class="text">
-            <h1>Тут очень важная</h1>
-            <h2>и полезная инфа</h2>
-        </div>
-       <div class="btns">
-           <a class="gray-button" href="html/help.html">
-
-               Как играть?
-        </a>
-        <a class="gray-button" href="html/menu.html">
-            Играть
-        </a>
-       </div>
-    </div>
-    </div>
+<main id="main">
 
 </main>
 </body>
