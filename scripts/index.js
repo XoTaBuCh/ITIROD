@@ -139,7 +139,7 @@ const RenderMenu = () => {
     const userEmail = document.getElementById("user-email");
     userEmail.textContent = userData.name;
 
-    getInvites(userData.name.replace("\.", ""));
+    getInvites(userData.name.replaceAll("\.", ""));
 
     addOnClick("create-board", (e) => {
         e.preventDefault();
@@ -215,7 +215,7 @@ const RenderGame = async (url) => {
     });
     addOnSubmit("send-invite", (e) => {
         e.preventDefault();
-        sendInvite(document.getElementById("username").value.replace("\.", ""), game.boardID)
+        sendInvite(document.getElementById("username").value.replaceAll("\.", ""), game.boardID)
     });
 }
 
